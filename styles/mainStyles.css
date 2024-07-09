@@ -1,0 +1,76 @@
+Header {
+  background-image: linear-gradient(
+      rgba(255, 65, 65, 0.45),
+      rgba(255, 65, 65, 0.45)
+    ),
+    url("../imgs/backGround.png");
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fs-30 {
+  font-size: 60px;
+}
+
+.top-80 {
+  top: 55vh;
+}
+
+.pink-bg {
+  background-color: #e68285;
+}
+
+#Event {
+  background-image: linear-gradient(
+      rgba(255, 65, 65, 0.45),
+      rgba(255, 65, 65, 0.45)
+    ),
+    url("../imgs/ticket.png");
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  display: flex;
+  /* gap: 100px; */
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.w-33 {
+  width: 15%;
+}
+
+.drawer p {
+  cursor: pointer;
+  transition: 1 all;
+}
+
+.drawer {
+  width: 0;
+}
+
+.open-drawer {
+  cursor: pointer;
+}
+
+.singer-item {
+  cursor: pointer;
+}
+
+.singer-des {
+  display: none;
+  overflow: hidden;
+}
+
+.close-item {
+  cursor: pointer;
+}
+.drawer p:hover {
+  color: #e68285 !important;
+}
